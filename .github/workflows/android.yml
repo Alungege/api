@@ -51,6 +51,3 @@ jobs:
       with:
         # Upload entire repository
         path: 'api/build/intermediates/java_doc_dir/release'
-    - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@main
